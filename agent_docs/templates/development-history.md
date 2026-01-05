@@ -1,3 +1,5 @@
+> Правило ротации: в `agent_docs/development-history.md` хранить только последние 10 записей; старые переносить в `agent_docs/development-history-archive.md`.
+
 ## [YYYY-MM-DD HH:MM] - Краткое описание итерации
 
 ### Что сделано
