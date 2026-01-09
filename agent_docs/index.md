@@ -11,6 +11,7 @@
 - `agent_docs/dod.md` — критерии завершенности (DoD).
 - `agent_docs/logging.md` — логирование скриптов/интеграций.
 - `agent_docs/archiving-and-temp.md` — архивация и временные файлы.
+- `agent_docs/environment-setup.md` — правила настройки окружения; применять при инициализации проекта.
 
 ## Шаблоны
 - `agent_docs/templates/architecture.md`
