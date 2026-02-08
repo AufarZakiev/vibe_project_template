@@ -17,6 +17,7 @@ Thumbs.db
 Thumbs.db:encryptable
 desktop.ini
 $RECYCLE.BIN/
+nul
 *.cab
 *.msi
 *.msm
@@ -101,3 +102,8 @@ coverage/
 
 main # Если бинарник называется main
 luac.out
+
+# ==========================
+# Claude Code
+# ==========================
+.claude/settings.local.json
