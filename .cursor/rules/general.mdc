@@ -1,6 +1,0 @@
----
-alwaysApply: true
----
-
-- Never use Git commands
-- For C++ code in Windows, do not try to run build step

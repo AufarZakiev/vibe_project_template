@@ -1,11 +1,12 @@
----
-name: linter-runner
-description: Run linters on files after editing. Detects file type, checks for existing linter configuration, runs available linters, or proposes installation if none found. Use when finishing file edits, when the user asks to lint files, or to check code quality.
----
-
 # Linter Runner
 
-Run this skill after editing files to ensure code quality. Auto-detects file type and available linters.
+Run linters on files to ensure code quality. Auto-detects file type and available linters.
+
+## Target
+
+Lint: $ARGUMENTS
+
+If no target specified, ask the user what files to lint.
 
 ## Workflow
 
@@ -204,18 +205,18 @@ Default to npm (JS) or pip (Python) if no lock file found.
 After running linter:
 
 ```
-✅ Linting complete: [filename]
+Linting complete: [filename]
    - X issues fixed automatically
    - Y issues require manual attention
 
-⚠️ Remaining issues:
+Remaining issues:
    [list specific issues with line numbers]
 ```
 
 If proposing installation:
 
 ```
-📦 No linter configured for [file type]
+No linter configured for [file type]
 
 Recommended: [linter name]
 

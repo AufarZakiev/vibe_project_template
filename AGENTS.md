@@ -26,7 +26,7 @@
 
 ## При инициализации нового проекта (удалить этот раздел после применения указанных настроек видимости .env)
 - Если нужного документа нет — создать из шаблона в `agent_docs/templates/` и разместить в `agent_docs/`.
-- Применить правила из `agent_docs/guides/environment-setup.md` (настройка `.env`, `.cursorignore`, `.vscode/settings.json`).
+- Применить правила из `agent_docs/guides/environment-setup.md` (настройка `.env`, скрытие секретов от агентов, `.vscode/settings.json`).
 
 ## Универсальные правила
 
